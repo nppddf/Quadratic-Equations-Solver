@@ -31,3 +31,7 @@ void quadraticEquationSolver(double a, double b, double c) {
         printNoSolutions();
     }
 }
+
+int isQuadraticEquation(double a) {
+    return a != 0;
+}

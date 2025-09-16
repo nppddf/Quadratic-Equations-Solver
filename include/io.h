@@ -8,6 +8,4 @@ void printTwoSolutions(double, double);
 
 void setCoefficients(double*, double*, double*);
 
-int isQuadraticEquation(double);
-
 #endif // IO_OPERATIONS

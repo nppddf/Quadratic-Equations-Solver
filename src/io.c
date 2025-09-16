@@ -30,7 +30,3 @@ void setCoefficients(double* a, double* b, double* c) {
     
     printf("\n");
 }
-
-int isQuadraticEquation(double a) {
-    return a != 0;
-}
