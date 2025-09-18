@@ -9,12 +9,12 @@ enum numberOfSolutions {
 };
 
 struct Solution {
-    double solution_1;
-    double solution_2;
+    double x1;
+    double x2;
     int numberOfSolutions;
 };
 
-struct Solution SolutionBuilder(double, double, int);
+struct Solution SolutionConstructor(double, double, int);
 void printSolutions(struct Solution);
 
 #endif // SOLUTION_H
