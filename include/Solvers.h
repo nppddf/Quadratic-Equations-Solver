@@ -1,9 +1,15 @@
-#ifndef SOLVERS
-#define SOLVERS
+#ifndef SOLVERS_H
+#define SOLVERS_H
 
-void linearEquationSolver(double, double);
-void quadraticEquationSolver(double, double, double);
+enum compareWithZeroResultCodes {
+    equalsZero = 1,
+    greaterThanZero = 0
+};
+
+struct Solution linearEquationSolver(double, double);
+struct Solution quadraticEquationSolver(double, double, double);
 
 int isQuadraticEquation(double);
+int isZero(double);
 
-#endif // SOLVERS
+#endif // SOLVERS_H
